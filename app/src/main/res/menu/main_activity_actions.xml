@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ToDo="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/action_second"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/action_layout1"
+        ToDo:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/action_compose"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/action_layout2"
+        ToDo:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/action_test"
+        android:icon="@drawable/ic_launcher"
+        android:title="test"
+        />
+</menu>
+    <!-- Chú thích
+    ToDo:showAsAction="ifRoom|withText"
+    -> dùng để tách ra khỏi phần gọp chung trên thanh bar menu
+     -->
